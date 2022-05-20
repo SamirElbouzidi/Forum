@@ -10,7 +10,7 @@
                 
             <div class="float" > <img src="Logo/Ordi.png" class="img2"> </div>
                     <form class="forum1" method="POST">    
-                    <div class="float1">  <img src="Logo/Odyssée.jpg" class="logo"></div>
+                    <div class="float1">  <img src="Logo/Odyssé.jpg" class="logo"></div>
                     
                     <h3>Inscrivez-vous à votre <br>forum de développement <br>Odyssé.</h3>
 

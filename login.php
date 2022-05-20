@@ -27,8 +27,8 @@
             </div>
             <button type="submit" class="btn btn-primary" name="validate">Se connecter</button> 
             <div id="mdpHelp"> 
-                <a>Mot de passe ounlié</a>
-                <a>Help</a>
+                <a href="#">Mot de passe oublié</a>
+                <a href="#">Help</a>
             </div>
         </form>
         <p id="copy"> © Copyright 2022 Odyssée, Inc.<a href=""> Tous droit réservé</a></p>
@@ -38,10 +38,10 @@
     <!-- 2eme partie droite ******************************************************-->
     <div class="block_droite">
         <div>
-            <h1> Rejoignez-nous au sommet d' Odyssée !</h1>
-            <p>1er forum francophone pour les développeurs. rejoignez notre communauté riche et variée de plus de 5 000 utlisateurs.</p>
+            <h1> Rejoignez-nous au <br> sommet d' Odyssée !</h1>
+            <p>1er forum francophone pour <br> les développeurs. Rejoignez notre <br> communauté riche et variée de plus de <br> 5 000 utlisateurs.</p>
         </div>
-        <div><a class="button" href="signup.php"><button ><p>S'inscrire maintenant</p></button></a></div>
+        <div><a class="button" href="signup.php"><button>S'inscrire maintenant </button></a></div>
     </div>
     <!-- END 2eme partie droite *************************************************-->
 
