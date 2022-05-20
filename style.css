@@ -1,0 +1,110 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+        margin: 0;
+        padding: 0;
+        font-family: "Righteous", cursive;
+        background-image: url("Logo/Background.jpg");
+}
+
+.inscrire{
+    display: flex;
+    width: 95%;
+    margin: 70px auto 0 auto;
+    
+
+}
+
+.inscrire img:first-child{
+    background-color: #00000052;
+    border-radius: 16px;
+}
+
+.forum1{
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 16px;
+    padding: 10px 50px 10px 60px;
+    
+
+}
+
+.forum1 h3,p{
+    text-align: center;
+}
+
+.logo{
+
+    width: 120px; 
+    margin: auto;
+    display: flex;
+    
+
+}
+
+
+.float{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    
+}
+
+.float1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    
+}
+
+footer{
+    background-color: #032D60 ;
+}
+
+footer p{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    padding-top: 10px ;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+
+footer #foot {
+    width: 50%;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+footer #myA{
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer #myA:last-child{
+    margin-left: 50px;
+}
+
+
+
+
+ 
