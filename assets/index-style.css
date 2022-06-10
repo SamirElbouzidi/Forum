@@ -1,0 +1,453 @@
+
+body{
+    font-family: Roboto, sans-serif;
+    background-image: url("../Logo/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    
+   
+}
+
+header{
+    display: flex;
+    background-color: #EAF5FE;
+    justify-content: space-between;
+    
+}
+
+header img{
+
+    height: 70px;
+    padding: 10px 0 10px 0;
+
+}
+
+header p{
+    margin-top: 22px ;
+    padding: 0 0 0 15px;
+    color: #2F2CB7;
+    font-weight: bold;
+
+}
+
+.part-gauche{
+
+  display: flex;
+}
+
+.part-droit{
+    margin-right: 30px;
+    padding: 15px 10px 10px 10px;
+}
+
+.part-droit button{
+
+    margin-left: 15px;
+    padding: 5px 30px 5px 30px;
+}
+
+.part-droit a:last-child{
+
+    color: #2F2CB7;
+}
+
+
+nav{
+    border: 0.5px solid #C4C4C4;
+}
+
+nav ul{
+    display: flex;
+    
+    
+    
+}
+nav ul li{
+    list-style-type: none;
+    padding: 10px 30px 0 0;
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: #2F2CB7;
+    font-weight: bold;
+}
+
+
+.presentation{
+
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.presentation h2{
+
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.presentation h4{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.presentation button{
+
+    padding: 10px 30px 10px 30px;
+    font-size: 1.5em;
+}
+
+.lescartes{
+    
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.carte{
+    width: 33%;
+    margin: 0 auto;
+}
+
+.card-body{
+    -webkit-box-shadow: 0px 1px 22px 2px rgba(0,0,0,0.10); 
+    box-shadow: 0px 1px 22px 2px rgba(0,0,0,0.10);
+    border: inherit;
+    border-radius: 16px;
+}
+
+.card {
+    width: 18rem; 
+    margin: 10px auto 0 auto;
+    height: 50%;
+    max-height: 220px;
+    border: inherit;
+}
+
+.carte .icon{
+    width: 80px;
+    height: 80px;
+    text-align:center;
+    margin: auto;
+    display: flex;
+   
+}
+
+
+.carte p:last-child{
+
+    font-weight: bold;
+}
+
+#para1,#para3{
+    font-style: italic;
+    padding-top: 30px;
+    padding-bottom: 36px;
+}
+
+#para2{
+    font-style: italic;
+    padding-top: 15px;
+}
+
+footer p{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+
+}
+
+footer {
+    background-color: #032D60;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    padding-top: 10px ;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+
+footer #foot {
+    width: 50%;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+footer #myA{
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer #myA:last-child{
+    margin-left: 50px;
+}
+
+
+/*=======================================================
+	Responsive CSS
+=======================================================*/
+@media(max-width:1400px){
+    
+
+    h2{
+        font-size: 1.8em;
+    }
+    h4{
+        font-size: 1.4em;
+    }
+
+    .lescartes {
+        display: flex;
+        margin-top: 140px;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .presentation button {
+        padding: 8px 25px 8px 25px;
+        font-size: 1.4em;
+    }
+
+    .carte .icon {
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+
+    .card-body {
+        -webkit-box-shadow: 0px 1px 22px 2px rgb(0 0 0 / 10%);
+        box-shadow: 0px 1px 22px 2px rgb(0 0 0 / 10%);
+        border: inherit;
+        border-radius: 16px;
+        height: 230px;
+    }
+  
+
+}
+@media(max-width:1080px){
+	
+    
+    h2{
+        font-size: 1.6em;
+    }
+    h4{
+        font-size: 1.2em;
+    }
+
+    .lescartes {
+        display: flex;
+        margin-top: 140px;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .presentation button {
+        padding: 8px 25px 8px 25px;
+        font-size: 1.2em;
+    }
+
+    .carte .icon {
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+
+    .card-body {
+        -webkit-box-shadow: 0px 1px 22px 2px rgb(0 0 0 / 10%);
+        box-shadow: 0px 1px 22px 2px rgb(0 0 0 / 10%);
+        border: inherit;
+        border-radius: 16px;
+        height: 240px;
+    }
+
+    .card {
+        width: 70%;
+        margin: 10px auto 0 auto;
+        height: 50%;
+        max-height: 220px;
+        border: inherit;
+    }
+
+    p{
+        font-size: 0.95em;
+    }
+
+ 
+   
+}
+
+@media(max-width:825px){
+    h2{
+        font-size: 1.5em;
+    }
+    h4{
+        font-size: 1.1em;
+    }
+
+    .lescartes {
+        display: flex;
+        margin-top: 160px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .carte {
+        width: 90%;
+        margin: 30px auto 0 auto;
+    }
+
+    .presentation button {
+        padding: 8px 25px 8px 25px;
+        font-size: 1.1em;
+    }
+
+    .carte .icon {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+
+    .card-body {
+        -webkit-box-shadow: 0px 1px 22px 2px rgb(0 0 0 / 10%);
+        box-shadow: 0px 1px 22px 2px rgb(0 0 0 / 10%);
+        border: inherit;
+        border-radius: 16px;
+        height: 280px;
+    }
+    p,a{
+        font-size: 0.95em;
+    }
+
+    .part-droit button {
+        margin-left: 15px;
+        padding: 5px 20px 5px 20px;
+    }
+
+    .form-control {
+        display: none;
+    }
+
+    .part-gauche p{
+        font-size: 1em;
+    }
+    footer {
+        
+        bottom: inherit; 
+       
+    }
+    
+}
+
+@media(min-width: 200px) and (max-width: 475px){
+
+    body {
+        font-family: Roboto, sans-serif;
+        background-image: url(../Logo/Rectangle.png);
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+    }
+
+    h2{
+        font-size: 1.1em;
+    }
+    h4{
+        font-size: 0.8em;
+    }
+
+    .lescartes {
+        display: flex;
+        margin-top: 80px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .carte {
+        width: 90%;
+        margin: 30px auto 0 auto;
+    }
+
+    .presentation button {
+        padding: 8px 25px 8px 25px;
+        font-size: 0.8em;
+    }
+
+    .carte .icon {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+
+    .card-body {
+        -webkit-box-shadow: 0px 1px 22px 2px rgb(0 0 0 / 10%);
+        box-shadow: 0px 1px 22px 2px rgb(0 0 0 / 10%);
+        border: inherit;
+        border-radius: 16px;
+        height: 200px;
+    }
+    p,a{
+        font-size: 0.8em;
+    }
+
+    .part-droit button {
+        margin-left: 15px;
+        padding: 5px 15px 5px 15px;
+        font-size: 0.8em;
+    }
+
+    .form-control {
+        display: none;
+    }
+
+    .part-gauche p{
+        font-size: 0.8em;
+    }
+
+    .part-droit {
+        margin-right: 0px; 
+        padding: 15px 10px 10px 10px;
+    }
+
+    header img {
+        height: 60px;
+        padding: 10px 0 10px 0;
+    }
+
+    footer {
+        
+        bottom: inherit; 
+       
+    }
+    footer a,p{
+        font-size: 0.6em;
+    }
+
+    footer #foot {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    #myA:last-child {
+        margin-left: inherit !important; 
+    }
+
+}
+
+
+
+
+ 

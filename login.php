@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'includes/head.php'; ?>
-<link rel="stylesheet" href="login-style.css">
+<link rel="stylesheet" href="assets/login-style.css">
 <body>
 
 <div id="blanc"> </div>
@@ -44,7 +44,6 @@
         <div><a class="button" href="signup.php"><button>S'inscrire maintenant </button></a></div>
     </div>
     <!-- END 2eme partie droite *************************************************-->
-
 </div> 
 
 </body>

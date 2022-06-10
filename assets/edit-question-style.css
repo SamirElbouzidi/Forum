@@ -1,0 +1,139 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+        margin: 0;
+        padding: 0;
+        font-family: "Righteous", cursive;    
+        background-color: #F0F0F0;
+}
+
+header{
+    display: flex;
+    background-color: #EAF5FE;
+    justify-content: space-between;
+    
+}
+
+header img{
+
+    height: 70px;
+    padding: 10px 0 10px 0;
+
+}
+
+header p{
+    margin-top: 22px ;
+    padding: 0 0 0 15px;
+    color: #2F2CB7;
+    font-weight: bold;
+
+}
+
+.part-gauche{
+
+  display: flex;
+}
+
+.part-droit{
+    margin-right: 30px;
+    padding: 15px 10px 10px 10px;
+}
+
+.part-droit button{
+
+    margin-left: 15px;
+    padding: 5px 30px 5px 30px;
+}
+
+.part-droit a:last-child{
+
+    
+    color: #2F2CB7;
+}
+
+nav{
+    border: 0.5px solid white;
+}
+
+nav ul{
+    display: flex;
+    
+    
+    
+}
+nav ul li{
+    list-style-type: none;
+    padding: 10px 30px 0 0;
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: #2F2CB7;
+    font-weight: bold;
+}
+
+.text-edit{
+
+    padding: 30px 300px 15px 100px;
+    color: #2F2CB7;
+    
+
+}
+
+.edit{
+
+    padding: 10px 500px 50px 100px;
+    
+}
+
+.edit a{
+
+    text-decoration: none;
+}
+.edits{
+
+    padding: 0 500px 10px 0;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #032D60 ;
+}
+
+footer p{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+
+}
+
+footer {
+    background-color: #032D60;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    padding-top: 10px;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+
+footer #foot {
+    width: 50%;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+footer #myA{
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer #myA:last-child{
+    margin-left: 50px;
+}

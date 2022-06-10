@@ -1,21 +1,20 @@
 <?php require('actions/users/signupAction.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/style.css">
 <?php include 'includes/head.php'; ?>
 <body>
         
 
-            <div class="inscrire">
-                
-            <div class="float" > <img src="Logo/Ordi.png" class="img2"> </div>
-                    <form class="forum1" method="POST">    
-                    <div class="float1">  <img src="Logo/Odyssé.jpg" class="logo"></div>
-                    
-                    <h3>Inscrivez-vous à votre <br>forum de développement <br>Odyssé.</h3>
-
-                        <?php if(isset($errorMsg)){ echo '<p>'.$errorMsg.'</p>'; } ?>
-
+    <div class="inscrire">   
+        <div class="float" > 
+            <img src="Logo/Ordi.png" class="img2">
+            <p id="text-inscri"> Odyssée est un site web proposant des questions et <br>réponse sur un large  choix de thèmes concernant la <br>programmation informatique.</p>
+        </div>
+        <form class="forum1" method="POST">    
+            <div class="float1">  <img src="Logo/Odyssé.jpg" class="logo"></div>
+                <h3>Inscrivez-vous à votre <br>forum de développement <br>Odyssé.</h3>
+                    <?php if(isset($errorMsg)){ echo '<p>'.$errorMsg.'</p>'; } ?>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Pseudo</label>
                             <input type="text" class="form-control" name="pseudo" placeholder="Votre pseudo ">
@@ -34,7 +33,6 @@
                         </div>
                         <p>En vous inscrivant, vous confirmez avoir lu et accepté les conditions d'utilisation.</p>
                         <button type="submit" class="btn btn-primary" name="validate">Enregistre-moi</button>
-                       
                         <a href="login.php"><p>J'ai déjà un compte, je me connecte</p></a>
                 </form>    
             </div>
