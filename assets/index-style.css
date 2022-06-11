@@ -381,7 +381,7 @@ footer #myA:last-child{
 
     .presentation button {
         padding: 8px 25px 8px 25px;
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     .carte .icon {
@@ -406,7 +406,7 @@ footer #myA:last-child{
     .part-droit button {
         margin-left: 15px;
         padding: 5px 15px 5px 15px;
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     .form-control {
@@ -432,8 +432,8 @@ footer #myA:last-child{
         bottom: inherit; 
        
     }
-    footer a,p{
-        font-size: 0.6em;
+    footer a, footer p{
+        font-size: 0.6em !important;
     }
 
     footer #foot {

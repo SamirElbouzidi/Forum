@@ -29,7 +29,8 @@ body {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 16px;
     padding: 10px 50px 10px 60px;
-    
+    max-height: 800px;
+    min-width: 400px;
 
 }
 
@@ -65,6 +66,7 @@ body {
 .img2{
     display: block;
     width: 80%;
+    min-width: 460px;
     margin: 0 auto;
 }
 
@@ -126,6 +128,375 @@ footer #myA{
 footer #myA:last-child{
     margin-left: 50px;
 }
+
+/*=======================================================
+	Responsive CSS
+=======================================================*/
+@media(max-width:1400px){
+    
+    .forum1 h3 {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px !important;
+        font-size: 1.4em;
+    }
+    .forum1 p{
+        font-size: 1.1em !important;
+    }
+
+    #text-inscri {
+        padding: 60px 80px 0 80px;
+        color: white;
+        font-weight: 400;
+        font-size: 1.4em;
+        min-width: 460px;
+    }
+
+    .logo {
+        width: 100px;
+        margin: auto;
+        display: flex;
+    }
+
+    .mb-3{
+        font-size: 0.95em;
+    }
+
+    footer p,a ,input{
+        font-size: 0.95em !important;
+    }
+    .forum1 h3 {
+        padding: 10px 0 10px 0
+    }
+
+
+
+}
+@media(max-width:1150px){
+	
+    
+    .forum1 h3 {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px !important;
+        font-size: 1.3em;
+    }
+    .forum1 p{
+        font-size: 1em !important;
+    }
+
+    #text-inscri {
+        padding: 60px 60px 0 60px;
+        color: white;
+        font-weight: 400;
+        font-size: 1.3em;
+        min-width: 460px;
+    }
+
+    .logo {
+        width: 90px;
+        margin: auto;
+        display: flex;
+    }
+
+    .mb-3{
+        font-size: 0.85em;
+    }
+
+    footer p,a,input {
+        font-size: 0.85em !important;
+    }
+
+    .forum1 {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 16px;
+        padding: 10px 50px 10px 60px;
+        max-height: none;
+        min-width: 350px;
+    }
+
+    .float {
+        justify-content: center;
+        width: 50%;
+        background-color: #00000052;
+        border-radius: 16px;
+        margin-right: 100px;
+        max-width: 550px;
+    }
+
+    .img2 {
+        display: block;
+        width: 80%;
+        min-width: 360px;
+        margin: 0 auto;
+    }
+    .forum1 h3 {
+        padding: 10px 0 10px 0
+    }
+
+ 
+   
+}
+
+/*@media(max-width:950px){
+    .forum1 h3 {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px !important;
+        font-size: 1.2em;
+    }
+    .forum1 p{
+        font-size: 0.85em !important;
+    }
+
+    #text-inscri {
+        padding: 60px 60px 0 60px;
+        color: white;
+        font-weight: 400;
+        font-size: 1.2em;
+        min-width: 360px;
+    }
+
+    .logo {
+        width: 80px;
+        margin: auto;
+        display: flex;
+    }
+
+    .mb-3{
+        font-size: 0.85em;
+    }
+
+    footer p,a,input {
+        font-size: 0.85em !important;
+    }
+
+    .forum1 {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 16px;
+        padding: 10px 20px 10px 30px;
+        max-height: none;
+        min-width: 270px;
+    }
+
+    .float {
+        justify-content: center;
+        width: 50%;
+        background-color: #00000052;
+        border-radius: 16px;
+        margin-right: 100px;
+        max-width: 370px;
+    }
+
+    .img2 {
+        display: block;
+        width: 80%;
+        min-width: 360px;
+        margin: 0 auto;
+    }
+    .forum1 h3 {
+        padding: 10px 0 10px 0
+    }
+
+    
+}*/
+
+
+@media(max-width:950px){
+
+    .inscrire {
+        display: flex;
+        width: 95%;
+        justify-content: space-around;
+        margin: 70px auto 0 auto;
+        flex-direction: column;
+    }
+
+    .forum1 h3 {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px !important;
+        font-size: 1.2em;
+    }
+    .forum1 p{
+        font-size: 0.85em !important;
+    }
+
+    #text-inscri {
+        padding: 40px 30px 20px 30px;
+        color: white;
+        font-weight: 400;
+        font-size: 1.1em;
+        min-width: 360px;
+    }
+
+    .logo {
+        width: 80px;
+        margin: auto;
+        display: flex;
+    }
+
+    .mb-3{
+        font-size: 0.85em;
+    }
+
+    footer p,a,input {
+        font-size: 0.85em !important;
+    }
+
+    .forum1 {
+        width: 80%;
+        display: flex;
+        margin: 20px  auto 0 auto;
+        flex-direction: column;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 16px;
+        padding: 10px 20px 10px 30px;
+        max-height: none;
+        min-width: 270px;
+    }
+
+    .float {
+        justify-content: center;
+        width: 80%;
+        background-color: #00000052;
+        border-radius: 16px;
+        margin-right: 100px;
+        max-width: inherit;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .forum1 h3 {
+        padding: 10px 0 10px 0
+    }
+
+    .img2 {
+        display: block;
+        width: 80%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    footer {
+        bottom: inherit;
+    }
+    
+}
+
+
+@media(min-width: 200px) and (max-width: 475px){
+
+    .inscrire {
+        display: flex;
+        width: 95%;
+        justify-content: space-around;
+        margin: 70px auto 0 auto;
+        flex-direction: column;
+    }
+
+    .forum1 h3 {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px !important;
+        font-size: 1em;
+    }
+    .forum1 p{
+        font-size: 0.85em !important;
+    }
+
+    #text-inscri {
+        padding: 40px 20px 20px 20px;
+        color: white;
+        font-weight: 400;
+        font-size: 1em;
+        min-width: 200px;
+    }
+
+    .logo {
+        width: 70px;
+        margin: auto;
+        display: flex;
+    }
+
+    .mb-3{
+        font-size: 0.85em;
+    }
+
+    footer p,a,input {
+        font-size: 0.85em !important;
+    }
+
+    .forum1 {
+        width: 80%;
+        display: flex;
+        margin: 20px  auto 0 auto;
+        flex-direction: column;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 16px;
+        padding: 10px 20px 10px 30px;
+        max-height: none;
+        min-width: 270px;
+    }
+
+    .float {
+        justify-content: center;
+        width: 80%;
+        background-color: #00000052;
+        border-radius: 16px;
+        margin-right: 100px;
+        max-width: inherit;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .forum1 h3 {
+        padding: 10px 0 10px 0
+    }
+
+    .img2 {
+        display: block;
+        width: 80%;
+        max-width: 250px;
+        min-width: 200px;
+        margin: 0 auto;
+    }
+
+    footer {
+        
+        bottom: inherit; 
+       
+    }
+    footer a, footer p{
+        font-size: 0.6em !important;
+    }
+
+    footer #foot {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    #myA:last-child {
+        margin-left: inherit !important; 
+    }
+
+}
+
+
 
 
 

@@ -8,12 +8,12 @@
 
     <div class="inscrire">   
         <div class="float" > 
-            <img src="Logo/Ordi.png" class="img2">
-            <p id="text-inscri"> Odyssée est un site web proposant des questions et <br>réponse sur un large  choix de thèmes concernant la <br>programmation informatique.</p>
+            <img src="Logo/Ordi.png" class="img2"> 
+            <p id="text-inscri"> Odyssée est un site web proposant des questions et réponse sur un large  choix de thèmes concernant la programmation informatique.</p>
         </div>
         <form class="forum1" method="POST">    
             <div class="float1">  <img src="Logo/Odyssé.jpg" class="logo"></div>
-                <h3>Inscrivez-vous à votre <br>forum de développement <br>Odyssé.</h3>
+                <h3>Inscrivez-vous à votre forum de développement Odyssé.</h3>
                     <?php if(isset($errorMsg)){ echo '<p>'.$errorMsg.'</p>'; } ?>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Pseudo</label>
