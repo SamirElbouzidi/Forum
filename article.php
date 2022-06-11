@@ -65,10 +65,10 @@
         ?>
             <div class="card">
                 <div class="card-header">
-                    <a href="profile.php?id=<?= $answer['id_auteur']; ?>"><?= $answer['pseudo_auteur']; ?></a>
+                   <?= $answer['pseudo_auteur']; ?>
                 </div>
                 <div class="card-body">
-                    <?= $answer['description']; ?>
+                    <?= $answer['contenue_reponse']; ?>
                 </div>
             </div>
                 <br>
