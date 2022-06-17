@@ -7,6 +7,7 @@
 <?php include 'includes/head.php'; ?>
 <link rel="stylesheet" href="assets/accueil-style.css">
 
+
 <body>
 
     <header class="container-fluid" >
@@ -19,14 +20,27 @@
                 <a href="actions/users/logoutAction.php"><button class="btn btn-primary">Déconnexion</button></a>
             </div>
         </div>
+
+        <div class="mobile">
+            <img src="Logo\menu.png"/>
+        </div>
+
     </header>
 
-    <nav class="navbar bg-light"> 
+    <nav class="navbar bg-light" id="menuLight"> 
+        
+        <div class="croix">
+            <img src="Logo\fermer.png"/>
+        </div>
+        
         <ul>
             <li><a id="sujets" href="accueil.php">Les Sujets</a></li>
             <li> <a href="publish-question.php">Publier une question</a></li>
             <li> <a href="my-questions.php">Mes questions</a></li>
             <li> <a href="profile.php?id=<?= $_SESSION['id']; ?>">Mon profil</a></li>
+            <li id="mobileDeco">             
+                <a href="actions/users/logoutAction.php"><button class="btn btn-primary">Déconnexion</button></a>
+            </li>
         </ul>
     </nav>
 
@@ -80,7 +94,9 @@
             <a  id="myA" href="cond">Mention légal</a>
         </div>
     </footer>   
+            
 
+    <script src="js\menu.js"></script>
 </body>
 
 </html>

@@ -10,24 +10,37 @@
 <link rel="stylesheet" href="assets/article-style.css">
 <body>
     
-    <header class="container-fluid" >
-            <div class="part-gauche">
-                    <img src="Logo/Odyssée.png" alt="">
-                    <p>Odyssée</p>
-            </div>
-            <div class = "part-droit">
-                <div class="d-flex">                
+<header class="container-fluid" >
+        <div class="part-gauche">
+             <img src="Logo/Odyssée.png" alt="">
+             <p>Odyssée</p>
+        </div>
+        <div class = "part-droit">
+            <div class="d-flex">             
                 <a href="actions/users/logoutAction.php"><button class="btn btn-primary">Déconnexion</button></a>
-                </div>
             </div>
+        </div>
+
+        <div class="mobile">
+            <img src="Logo\menu.png"/>
+        </div>
+
     </header>
 
-    <nav class="navbar bg-light"> 
+    <nav class="navbar bg-light" id="menuLight"> 
+        
+        <div class="croix">
+            <img src="Logo\fermer.png"/>
+        </div>
+        
         <ul>
-            <li> <a href="accueil.php">Les Sujets</a></li>
+            <li><a id="sujets" href="accueil.php">Les Sujets</a></li>
             <li> <a href="publish-question.php">Publier une question</a></li>
             <li> <a href="my-questions.php">Mes questions</a></li>
             <li> <a href="profile.php?id=<?= $_SESSION['id']; ?>">Mon profil</a></li>
+            <li id="mobileDeco">             
+                <a href="actions/users/logoutAction.php"><button class="btn btn-primary">Déconnexion</button></a>
+            </li>
         </ul>
     </nav>
     
@@ -60,28 +73,26 @@
                     <button class="btn btn-primary" type="submit" name="validate">Répondre</button>
                 </div>
             </form>
-        <?php 
-            while($answer = $getAllAnswersOfThisQuestion->fetch()){
-        ?>
-            <div class="card">
-                <div class="card-header">
-                   <?= $answer['pseudo_auteur']; ?>
-                </div>
-                <div class="card-body">
-                    <?= $answer['contenue_reponse']; ?>
-                </div>
-            </div>
-                <br>
-        <?php
-             }
-        ?>
-        </section>
-                
-        <?php
-            }
-        ?>
 
+            <?php
+            while($reponse = $getAllAnswersOfThisQuestion->fetch()){
+            ?>
+            <div class="card">
+                <div class="card-header"> <?= $reponse['pseudo_auteur']; ?>
             </div>
+            <div class="card-body">
+                <?= $reponse['contenue_reponse']; ?>
+            <?php
+            }
+            ?>
+
+            </section>
+
+            <?php
+        }
+        ?>
+        </div>
+            
 
     <footer> 
         <p id= "Copy">Copyright 2022 Odyssée, Inc. <a href="">Tous droits réservés</a></p>
@@ -90,6 +101,6 @@
             <a  id="myA" href="cond">Mention légal</a>
         </div>    
     </footer>   
-
+    <script src="js\menu.js"></script>
 </body>
 </html>

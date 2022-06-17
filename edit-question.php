@@ -10,24 +10,37 @@
 <body>
     
 
-    <header class="container-fluid" >
+<header class="container-fluid" >
         <div class="part-gauche">
-            <img src="Logo/Odyssée.png" alt="">
-            <p>Odyssée</p>
+             <img src="Logo/Odyssée.png" alt="">
+             <p>Odyssée</p>
         </div>
         <div class = "part-droit">
-            <div class="d-flex">                
+            <div class="d-flex">             
                 <a href="actions/users/logoutAction.php"><button class="btn btn-primary">Déconnexion</button></a>
             </div>
         </div>
+
+        <div class="mobile">
+            <img src="Logo\menu.png"/>
+        </div>
+
     </header>
 
-    <nav class="navbar bg-light"> 
+    <nav class="navbar bg-light" id="menuLight"> 
+        
+        <div class="croix">
+            <img src="Logo\fermer.png"/>
+        </div>
+        
         <ul>
             <li><a id="sujets" href="accueil.php">Les Sujets</a></li>
             <li> <a href="publish-question.php">Publier une question</a></li>
             <li> <a href="my-questions.php">Mes questions</a></li>
             <li> <a href="profile.php?id=<?= $_SESSION['id']; ?>">Mon profil</a></li>
+            <li id="mobileDeco">             
+                <a href="actions/users/logoutAction.php"><button class="btn btn-primary">Déconnexion</button></a>
+            </li>
         </ul>
     </nav>
 
@@ -53,7 +66,7 @@
                         <textarea class="form-control" name="description"><?= $question_description; ?></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-outline-warning" name="validate">Modifier la question</button>
+                    <button type="submit" class="btn btn-warning" name="validate">Modifier la question</button>
                 </form>
                 <?php
             }
@@ -69,7 +82,7 @@
             <a  id="myA" href="cond">Mention légal</a>
         </div>    
     </footer>   
-    
+    <script src="js\menu.js"></script>
 
 </body>
 </html>

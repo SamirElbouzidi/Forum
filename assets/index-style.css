@@ -429,7 +429,7 @@ footer #myA:last-child{
 
     footer {
         
-        bottom: inherit; 
+        bottom: 0; 
        
     }
     footer a, footer p{
