@@ -15,7 +15,7 @@ body {
     width: 70px;
     margin: 200px auto 0 auto;
     
-}
+} 
 
 #mdpHelp{
     display: flex;
@@ -124,4 +124,179 @@ box-shadow: 0px 1px 22px 2px rgba(255,255,255,0.50);
 
 .mb-3 {
     margin-top: 13px;
+}
+
+
+footer p{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+
+}
+
+footer {
+    display: none !important;
+    background-color: #032D60;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    padding: 10px 0;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+
+footer #foot {
+    width: 50%;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+footer #myA{
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer #myA:last-child{
+    margin-left: 50px;
+}
+
+/*=======================================================
+	Responsive CSS
+=======================================================*/
+@media(max-width:1400px){
+    
+   
+}
+
+
+@media(max-width:950px){
+
+    
+    
+}
+
+
+@media(min-width: 200px) and (max-width: 475px){
+
+    .block_mere{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .block_gauche{
+        width: 100%;
+    }
+
+    #blanc{
+        display: none;   
+    }
+
+    body{
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(218,238,255,1) 100%) no-repeat;
+    }
+
+    #blanc2{
+       display: none;
+    }
+    
+    .logo {
+        display: block;
+        width: 70px;
+        margin: 15px auto 0 auto;
+    }
+
+    .log{
+        width: 90%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        padding: 30px 60px;
+        margin: 30px auto 0 auto;
+        border-radius: 4px;
+    
+    }
+
+    .block_droite{
+        width: 100%;
+        padding: 50px 20px 0px 20px;
+    }
+
+    .block_droite h1{
+        font-size: 1.5em;
+        text-align:center;
+        font-weight: bold;
+        text-shadow: 2px 3px 7px rgb(255 255 255 / 50%);
+    }
+
+    .block_droite p{
+        font-size: 1em;
+        text-align:center;
+        text-shadow: 2px 3px 7px rgb(255 255 255);
+    }
+
+    #copy{
+        display: none;
+    }
+    footer p{
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    
+    footer {
+        display: flex !important;
+        background-color: #032D60;
+        position: absolute;
+        bottom: inherit; 
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        padding-top:10px;
+        color: white;
+        justify-content: space-evenly;
+        
+    }
+    
+    footer a, footer p{
+        font-size: 0.6em !important;
+    }
+
+    footer #foot {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    #myA:last-child {
+        margin-left: inherit !important; 
+    }
+    .block_droite a {
+        font-weight: 900;
+        font-size: 1.1em;
+    }
+
+    .button button{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #032D60;
+        color: white;
+        border-radius: 4px;
+        padding: 10px 30px 10px 30px;
+        border: none;
+        -webkit-box-shadow: 0px 1px 22px 2px rgba(255,255,255,0.50); 
+        box-shadow: 0px 1px 22px 2px rgba(255,255,255,0.50);
+        
+    }
 }

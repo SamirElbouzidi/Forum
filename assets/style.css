@@ -215,7 +215,7 @@ footer #myA:last-child{
         background-clip: border-box;
         border: 1px solid rgba(0,0,0,.125);
         border-radius: 16px;
-        padding: 10px 50px 10px 60px;
+        padding: 10px 50px 10px 50px;
         max-height: none;
         min-width: 350px;
     }
@@ -363,7 +363,7 @@ footer #myA:last-child{
         background-clip: border-box;
         border: 1px solid rgba(0,0,0,.125);
         border-radius: 16px;
-        padding: 10px 20px 10px 30px;
+        padding: 10px 20px 10px 20px;
         max-height: none;
         min-width: 270px;
     }
@@ -440,7 +440,7 @@ footer #myA:last-child{
     }
 
     .forum1 {
-        width: 80%;
+        width: 90%;
         display: flex;
         margin: 20px  auto 0 auto;
         flex-direction: column;
@@ -448,14 +448,14 @@ footer #myA:last-child{
         background-clip: border-box;
         border: 1px solid rgba(0,0,0,.125);
         border-radius: 16px;
-        padding: 10px 20px 10px 30px;
+        padding: 10px 20px 10px 20px;
         max-height: none;
         min-width: 270px;
     }
 
     .float {
         justify-content: center;
-        width: 80%;
+        width: 90%;
         background-color: #00000052;
         border-radius: 16px;
         margin-right: 100px;
