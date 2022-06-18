@@ -11,7 +11,7 @@
 
     <!-- 1ere partie gauche logo+form ******************************************************-->
     <div class="block_gauche">
-        <div> <img class="logo" src="Logo/Odyssée.png" > </div>
+        <div> <a href="index.php"> <img class="logo" src="Logo/Odyssée.png" > </a> </div>
         
         <form class="log" method="POST">
 
@@ -28,7 +28,6 @@
             <button type="submit" class="btn btn-primary" name="validate">Se connecter</button> 
             <div id="mdpHelp"> 
                 <a href="#">Mot de passe oublié</a>
-                <a href="#">Help</a>
             </div>
         </form>
         <p id="copy"> © Copyright 2022 Odyssée, Inc.<a href=""> Tous droit réservé</a></p>
@@ -47,10 +46,10 @@
 </div> 
 
 <footer> 
-        <p id= "Copy">Copyright 2022 Odyssée, Inc. <a href="">Tous droits réservés</a></p>
+        <p id= "Copy">Copyright 2022 Odyssée, Inc. <a href="mentionsLegales.php">Tous droits réservés</a></p>
         <div id="foot">    
-            <a  id="myA" class="cond" href="">Conditions d'utilisation</a>
-            <a  id="myA" href="cond">Mention légal</a>
+            <a  id="myA" class="cond" href="conditions.php">Conditions d'utilisation</a>
+            <a  id="myA" href="mentionsLegales.php">Mention légal</a>
         </div>    
     </footer>   
 

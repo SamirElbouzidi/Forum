@@ -1,11 +1,16 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+html{
+    height: 100%;
+}
 body {
         margin: 0;
         padding: 0;
         font-family: "Righteous", cursive;    
         background-color: #F0F0F0;
+        position: relative;
+        min-height: 100%;
 }
 
 header{
@@ -82,7 +87,7 @@ nav ul li a{
 }
 
 .article{
-
+    position: relative;
     padding: 10px 500px 50px 100px;
     
 }
@@ -92,21 +97,12 @@ nav ul li a{
     text-decoration: none;
 }
 
-footer{
-    background-color: #032D60 ;
-}
-
-footer p{
-    width: 50%;
-    justify-content: center;
-    display: flex;
-
-}
-
 footer {
     background-color: #032D60;
     position: absolute;
     bottom: 0;
+    left: 0; 
+    right: 0;
     width: 100%;
     display: flex;
     margin-top: 50px;
@@ -116,10 +112,16 @@ footer {
     
 }
 
+footer p{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+
+}
+
 footer #foot {
     width: 50%;
     display: flex;
-    
     justify-content: center;
     
 }
@@ -143,6 +145,10 @@ footer #myA:last-child{
 
 .mobile{
     display: none;
+}
+
+.card:first-of-type{
+    margin-top: 40px;
 }
 
 /*=======================================================
@@ -229,6 +235,7 @@ footer #myA:last-child{
         background-color: #032D60;
         position: absolute;
         bottom: 0; 
+        
         width: 100%;
         display: flex;
         margin-top: 50px;
@@ -270,6 +277,8 @@ footer #myA:last-child{
         
     }
 
+  
+    
     .text-article{
 
         padding: 20px 20px 5px 20px;
@@ -284,7 +293,7 @@ footer #myA:last-child{
         margin-left: 20px;
     }
     .article {
-        padding: 20px;
+        padding: 20px 20px 60px 20px;
     }
     .card-body a {
         width: 200px;

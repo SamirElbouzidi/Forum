@@ -3,6 +3,9 @@
 var myMenu  = document.querySelector("#menuLight");
 var menuItems = document.querySelector(".mobile");
 
+var xWidth = document.body.offsetWidth;
+console.log(xWidth);
+
 // Open menu
     menuItems.addEventListener("click",menuOpen,false);
 
@@ -14,7 +17,9 @@ var menuItems = document.querySelector(".mobile");
     myMenu.addEventListener("click",menuClose,false);
 
     function menuClose() {	
-        myMenu.style.left = "-5000px";
+        if(xWidth<475){
+            myMenu.style.left = "-5000px";
+        }
     }
 
 
